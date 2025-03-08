@@ -10,6 +10,19 @@
 </head>
 
 <body>
+  <div class="menu-button">
+    <button id="menuToggle">☰</button>
+  </div>
+  <div id="slideMenu" class="slide-menu">
+    <div class="tab-container">
+      <div class="tab active" data-tab="controls">Controls</div>
+    </div>
+    <div class="tab-content">
+      <div id="controls" class="tab-panel active">
+        <button id="generateMap" class="action-button">Generate New Map</button>
+      </div>
+    </div>
+  </div>
   <div id="canvasContainer">
     <canvas id="groundLayer"></canvas>
     <canvas id="streetLayer"></canvas>

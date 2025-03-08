@@ -6,3 +6,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#groundLayer {
+    z-index: 1;
+}
+
+#streetLayer {
+    z-index: 2;
+}
+
+#agentLayer {
+    z-index: 3;
+}
+
+#uiLayer {
+    z-index: 4;
+}
